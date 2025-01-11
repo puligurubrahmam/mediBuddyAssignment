@@ -41,14 +41,14 @@ class Question extends Component
                                     </div>
                                     {
                                     (item.id===this.state.questionId&&this.state.display)&&(<div>
-                                    <p>{item.answer}</p>
+                                    <p className='pnt-txt'>{item.answer}</p>
                                     <ul className='point-ul'>
                                         {
                                             item.points.map((point)=>
                                             {
                                                 return (
                                                     <li>
-                                                        <p>{point.pnt}</p>
+                                                        <p className='pnt-txt'>{point.pnt}</p>
                                                     </li>
                                                 )
                                             })

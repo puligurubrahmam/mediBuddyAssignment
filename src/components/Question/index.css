@@ -6,6 +6,10 @@
 {
     padding: 30px;
 }
+.pnt-txt{
+    color: #4D5C6F;
+    font-size: 14px;
+}
 .circle{
     height: 15px;
     padding: 10px;

@@ -8,7 +8,7 @@ class Features extends Component
         const {featuresObject} = this.props;
         return (
             <div className='features-container'>
-                <h1 className='head'>{featuresObject.heading}</h1>
+                <h1 className='heading1'>{featuresObject.heading}</h1>
                 <ul className='features-ul'>
                     {
                         (featuresObject.categories?.["10386"]!==undefined)&&featuresObject.categories?.["10386"].map((item)=>
@@ -27,7 +27,7 @@ class Features extends Component
                         {
                             return(
                             <li className='features-ul-types-li'>
-                                <h1 className='features-heading'>{item.packageDisplayName}</h1>
+                                <h1 className='heading1'>{item.packageDisplayName}</h1>
                                 <p className='report'>{item.reportsTatText}</p>
                                 <div className='flex-row'>
                                     <div>

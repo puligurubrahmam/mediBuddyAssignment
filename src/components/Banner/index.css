@@ -1,6 +1,6 @@
 .banner-ul{
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     overflow: auto;
 }
